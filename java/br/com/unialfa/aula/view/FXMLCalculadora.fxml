@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="407.0" prefWidth="372.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.unialfa.aula.controller.CalculadoraController">
+   <children>
+      <TextField fx:id="txtA" layoutY="1.0" prefHeight="72.0" prefWidth="369.0">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <Button fx:id="btnMultiplicar" layoutX="277.0" layoutY="75.0" mnemonicParsing="false" onAction="#multiplicar" prefHeight="66.0" prefWidth="92.0" text="X">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSubtrair" layoutX="277.0" layoutY="140.0" mnemonicParsing="false" onAction="#subtrair" prefHeight="66.0" prefWidth="92.0" text="-">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <FlowPane layoutY="75.0" prefHeight="198.0" prefWidth="279.0">
+         <children>
+            <Button fx:id="btnUm" contentDisplay="TEXT_ONLY" mnemonicParsing="false" onAction="#um" prefHeight="66.0" prefWidth="92.0" text="1">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font></Button>
+            <Button fx:id="btnDois" mnemonicParsing="false" onAction="#dois" prefHeight="66.0" prefWidth="92.0" text="2">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font></Button>
+            <Button fx:id="btnTres" mnemonicParsing="false" onAction="#tres" prefHeight="66.0" prefWidth="92.0" text="3">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font></Button>
+            <Button fx:id="btnQuatro" mnemonicParsing="false" onAction="#quatro" prefHeight="66.0" prefWidth="92.0" text="4">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font></Button>
+            <Button fx:id="btnCinco" mnemonicParsing="false" onAction="#cinco" prefHeight="66.0" prefWidth="92.0" text="5">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font></Button>
+            <Button fx:id="btnSeis" mnemonicParsing="false" onAction="#seis" prefHeight="66.0" prefWidth="92.0" text="6" textFill="#790808">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font></Button>
+            <Button fx:id="btnsete" mnemonicParsing="false" onAction="#sete" prefHeight="66.0" prefWidth="92.0" text="7">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font></Button>
+            <Button fx:id="btnOito" mnemonicParsing="false" onAction="#oito" prefHeight="66.0" prefWidth="92.0" text="8">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font></Button>
+            <Button fx:id="btnNove" mnemonicParsing="false" onAction="#nove" prefHeight="66.0" prefWidth="92.0" text="9" textFill="#7c0202">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font></Button>
+         </children>
+      </FlowPane>
+      <Button fx:id="btnSomar" layoutX="277.0" layoutY="206.0" mnemonicParsing="false" onAction="#somar" prefHeight="66.0" prefWidth="92.0" text="+">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDividir" layoutX="277.0" layoutY="272.0" mnemonicParsing="false" onAction="#dividir" prefHeight="72.0" prefWidth="92.0" text="\%">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnApagar" layoutX="-1.0" layoutY="346.0" mnemonicParsing="false" onAction="#Apagar" prefHeight="60.0" prefWidth="369.0" text="                                                          Apagar" textAlignment="RIGHT">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnIgual" layoutX="94.0" layoutY="273.0" mnemonicParsing="false" onAction="#igual" prefHeight="72.0" prefWidth="182.0" text="=">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnZero" layoutY="273.0" mnemonicParsing="false" onAction="#zero" prefHeight="72.0" prefWidth="92.0" text="0">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

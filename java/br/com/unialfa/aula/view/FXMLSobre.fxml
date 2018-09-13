@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.unialfa.aula.controller.CalculadoraController">
+   <children>
+      <TextField layoutX="158.0" layoutY="32.0" prefHeight="251.0" prefWidth="360.0" promptText="Teste Lindo" />
+      <Label graphicTextGap="8.0" layoutX="203.0" layoutY="32.0" prefHeight="251.0" prefWidth="270.0" text="    Teste Lindo">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
